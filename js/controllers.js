@@ -17,12 +17,7 @@ angular.module('App.controllers', [])
           url: 'https://platform.gethealth.io/v1/health/account/user/',
           method: "POST",
           headers: { 'Content-Type': 'application/json' },
-          data: JSON.stringify({
-            user: {
-              "uid": "1"
-            },
-            access_token: "A8AC3C0B4F18AD1BC5199D2055388BE2F5600200"
-          })
+          data: JSON.stringify({user: { uid:'1'},access_token:'A8AC3C0B4F18AD1BC5199D2055388BE2F5600200'})
         }).success(function (data) {
           console.log(data);
         }).error(function (data) {
