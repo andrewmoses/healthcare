@@ -1,5 +1,5 @@
-HealthCare
-============
+HealthCare Digitalme
+====================
 
 ## Requirements
 
